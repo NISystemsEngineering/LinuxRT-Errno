@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-02-03 17:50:33" Modified_Date="2017-02-15 14:21:23" Creator="Ryan Poulos" Comments="" ID="a166569dc73550f411060d2c210c1f45">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-02-03 17:50:33" Modified_Date="2017-02-16 10:52:19" Creator="Ryan Poulos" Comments="" ID="832235c477edf856376afbcd9d4f8e2a">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_NI_Linux_RT_Errno</Package_File_Name>
     <Library_Version>0.3.0.7</Library_Version>
@@ -124,6 +124,18 @@ Initial build.</Release_Notes>
       </Destination_Overrides>
       <Destination_Overrides>
         <Path>Source</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Source/Controls</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Source/VIs</Path>
         <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
@@ -308,7 +320,7 @@ Initial build.</Release_Notes>
         <Path>..\Source\VIs\Public\Get LV Error Info from Errno.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EBB409187E45901080B0657137A0166D</GUID>
+      <GUID>C8A3169CC9946D342FBAE48A407FAB7D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -371,7 +383,7 @@ Initial build.</Release_Notes>
         <Path>..\Source\VIs\Public\SubVIs\get errno description.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7D5ED5BE27D0BDF8ADA548E348BC87A9</GUID>
+      <GUID>D636510F0341E384A599FF5D9AF71F94</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -406,7 +418,7 @@ Initial build.</Release_Notes>
         <Path>..\Enums</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1FD4D4A490EDAC3E068A6F87B1254493</GUID>
+      <GUID>776CF1D6BA4072C8BC489F133EDFF0C4</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -441,7 +453,7 @@ Initial build.</Release_Notes>
         <Path>..\Source\Controls\Public\errno.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E526C5B91FE6EE8A4C3B94967C165974</GUID>
+      <GUID>429199A8FA8EB8722B4765A3EE0C1AE9</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
