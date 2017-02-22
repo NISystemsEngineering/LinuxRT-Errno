@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-02-03 17:50:33" Modified_Date="2017-02-16 10:52:19" Creator="Ryan Poulos" Comments="" ID="832235c477edf856376afbcd9d4f8e2a">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-02-03 17:50:33" Modified_Date="2017-02-22 15:08:38" Creator="Ryan Poulos" Comments="" ID="6fbd40bdcb559185096ddd09306e94cb">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_NI_Linux_RT_Errno</Package_File_Name>
-    <Library_Version>0.3.0.7</Library_Version>
+    <Library_Version>1.0.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\Builds</Library_Output_Folder>
@@ -36,7 +36,10 @@ Many Linux system functions use the standard Linux System Errors defined in errn
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL/>
-      <Release_Notes>0.3.0.6:
+      <Release_Notes>1.0.0.7:
+Reving to 1.0.0 to add to build server.
+
+0.3.0.6:
 Added subpalette "Custom" for get details about error for building custom error codes.
 Added error code to errno back conversion.
 
@@ -320,7 +323,7 @@ Initial build.</Release_Notes>
         <Path>..\Source\VIs\Public\Get LV Error Info from Errno.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C8A3169CC9946D342FBAE48A407FAB7D</GUID>
+      <GUID>F5C84009B0533390E3D6A82A594D1121</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -383,7 +386,7 @@ Initial build.</Release_Notes>
         <Path>..\Source\VIs\Public\SubVIs\get errno description.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D636510F0341E384A599FF5D9AF71F94</GUID>
+      <GUID>3BFC7B4407CE28243953FE2599FC56DE</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -418,7 +421,7 @@ Initial build.</Release_Notes>
         <Path>..\Enums</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>776CF1D6BA4072C8BC489F133EDFF0C4</GUID>
+      <GUID>1EEF0D5DEF3CC0C22FCBD56D0690C8B1</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -453,7 +456,7 @@ Initial build.</Release_Notes>
         <Path>..\Source\Controls\Public\errno.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>429199A8FA8EB8722B4765A3EE0C1AE9</GUID>
+      <GUID>A492BF174B49582210ADE97E059FDA1E</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
