@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-02-03 17:50:33" Modified_Date="2017-02-22 15:08:38" Creator="Ryan Poulos" Comments="" ID="6fbd40bdcb559185096ddd09306e94cb">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-02-03 17:50:33" Modified_Date="2017-02-22 15:16:12" Creator="Ryan Poulos" Comments="" ID="5eeb5ec43550f3601c123168f6211a8b">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_NI_Linux_RT_Errno</Package_File_Name>
     <Library_Version>1.0.0.7</Library_Version>
@@ -168,6 +168,9 @@ Initial build.</Release_Notes>
       <Exclusions>
         <Path>LICENSE</Path>
       </Exclusions>
+      <Exclusions>
+        <Path>Autobuild.csv</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
     <Licensing_and_Activation>
@@ -323,7 +326,7 @@ Initial build.</Release_Notes>
         <Path>..\Source\VIs\Public\Get LV Error Info from Errno.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F5C84009B0533390E3D6A82A594D1121</GUID>
+      <GUID>8C413354AD8AED9C566365D6ECE9E436</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -386,7 +389,7 @@ Initial build.</Release_Notes>
         <Path>..\Source\VIs\Public\SubVIs\get errno description.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3BFC7B4407CE28243953FE2599FC56DE</GUID>
+      <GUID>D6E0EDFEF450D29F647E10C7D45DDB6F</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -421,7 +424,7 @@ Initial build.</Release_Notes>
         <Path>..\Enums</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1EEF0D5DEF3CC0C22FCBD56D0690C8B1</GUID>
+      <GUID>8DA371A8138049DBC26223CAB196B60C</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -456,7 +459,7 @@ Initial build.</Release_Notes>
         <Path>..\Source\Controls\Public\errno.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A492BF174B49582210ADE97E059FDA1E</GUID>
+      <GUID>708DA96758507087C6D41CAF2626EC74</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
