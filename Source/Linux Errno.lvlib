@@ -22,9 +22,6 @@
 			<Item Name="C Functions" Type="Folder">
 				<Item Name="strerror_r.vi" Type="VI" URL="../VIs/Private/C Functions/strerror_r.vi"/>
 			</Item>
-			<Item Name="File Paths" Type="Folder">
-				<Item Name="libc path.vi" Type="VI" URL="../VIs/Private/File Paths/libc path.vi"/>
-			</Item>
 			<Item Name="Pointer Operations" Type="Folder">
 				<Item Name="get errno pointer for calling thread.vi" Type="VI" URL="../VIs/Private/Pointer Operations/get errno pointer for calling thread.vi"/>
 				<Item Name="get value of int32 pointer.vi" Type="VI" URL="../VIs/Private/Pointer Operations/get value of int32 pointer.vi"/>
@@ -36,7 +33,9 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 			<Item Name="SubVIs" Type="Folder">
 				<Item Name="build errno description.vi" Type="VI" URL="../VIs/Public/SubVIs/build errno description.vi"/>
+				<Item Name="errno enum to number.vi" Type="VI" URL="../VIs/Public/SubVIs/errno enum to number.vi"/>
 				<Item Name="errno enum to string.vi" Type="VI" URL="../VIs/Public/SubVIs/errno enum to string.vi"/>
+				<Item Name="errno number to enum.vi" Type="VI" URL="../VIs/Public/SubVIs/errno number to enum.vi"/>
 				<Item Name="get errno description.vi" Type="VI" URL="../VIs/Public/SubVIs/get errno description.vi"/>
 				<Item Name="get errno from error code.vi" Type="VI" URL="../VIs/Public/SubVIs/get errno from error code.vi"/>
 				<Item Name="get error code for errno.vi" Type="VI" URL="../VIs/Public/SubVIs/get error code for errno.vi"/>
