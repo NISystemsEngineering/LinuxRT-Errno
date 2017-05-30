@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-02-03 17:50:33" Modified_Date="2017-05-05 11:05:29" Creator="Ryan Poulos" Comments="" ID="5d445441a5cd8cbf1c6851946807e754">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-02-03 17:50:33" Modified_Date="2017-05-30 11:13:35" Creator="Ryan Poulos" Comments="" ID="0315244cb3f243b3b1f08bdf0c3baed6">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_NI_Linux_RT_Errno</Package_File_Name>
-    <Library_Version>1.0.0.7</Library_Version>
+    <Library_Version>1.1.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\Builds</Library_Output_Folder>
@@ -28,15 +28,12 @@
     <VI_Package_Configuration_File>NI Linux RT Errno.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary/>
-      <Description>
-&lt;b&gt;Beta Notice&lt;/b&gt;
-This library is in beta. VI names, tyepdefs, etc. are subject to change.
-
-Many Linux system functions use the standard Linux System Errors defined in errno.h for error handling. This LabVIEW library provides access to common errno definitions and mechanisms used in traditional C applications to provide error handling capabilities when errors are returned by system functions called via a Call Library Function Node.</Description>
+      <Description>Many Linux system functions use the standard Linux System Errors defined in errno.h for error handling. This LabVIEW library provides access to common errno definitions and mechanisms used in traditional C applications to provide error handling capabilities when errors are returned by system functions called via a Call Library Function Node.</Description>
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://forums.ni.com/t5/Reference-Design-Content/NI-Linux-RT-Libraries/ta-p/3622838</URL>
-      <Release_Notes/>
+      <Release_Notes>1.1.0:
+Updated VIs to use errno enum rather than standard numeric, for consistency.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -147,13 +144,13 @@ Many Linux system functions use the standard Linux System Errors defined in errn
         <Path>README.md</Path>
       </Exclusions>
       <Exclusions>
-        <Path>LICENSE</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>Autobuild.csv</Path>
       </Exclusions>
+      <Exclusions>
+        <Path>LICENSE</Path>
+      </Exclusions>
     </Source_Files>
-    <License_Agreement_Filepath/>
+    <License_Agreement_Filepath>..\LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
@@ -307,7 +304,7 @@ Many Linux system functions use the standard Linux System Errors defined in errn
         <Path>..\Source\VIs\Public\Get LV Error Info from Errno.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1A9CA242E45D1C6EAAEE6CF60C3D5F98</GUID>
+      <GUID>AE17090327900B9A842E1674AA7B3636</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -370,7 +367,7 @@ Many Linux system functions use the standard Linux System Errors defined in errn
         <Path>..\Source\VIs\Public\SubVIs\get errno description.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4A82E641DB8DC8842D157E940847E6CE</GUID>
+      <GUID>8B957AE2F4B1EDDE71D423295917D030</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -405,7 +402,7 @@ Many Linux system functions use the standard Linux System Errors defined in errn
         <Path>..\Enums</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C267CB652A30CCE66CB6C620B22DC8BD</GUID>
+      <GUID>9655AFE30EC56C22F6A811B547F7B6EC</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -440,7 +437,7 @@ Many Linux system functions use the standard Linux System Errors defined in errn
         <Path>..\Source\Controls\Public\errno.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E5C1D38937CD55449EDDF8A693C2FF44</GUID>
+      <GUID>5F34A197524BAAD7D929D099A904A9FF</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
