@@ -22,9 +22,6 @@
 			<Item Name="C Functions" Type="Folder">
 				<Item Name="strerror_r.vi" Type="VI" URL="../VIs/Private/C Functions/strerror_r.vi"/>
 			</Item>
-			<Item Name="File Paths" Type="Folder">
-				<Item Name="libc path.vi" Type="VI" URL="../VIs/Private/File Paths/libc path.vi"/>
-			</Item>
 			<Item Name="Pointer Operations" Type="Folder">
 				<Item Name="get errno pointer for calling thread.vi" Type="VI" URL="../VIs/Private/Pointer Operations/get errno pointer for calling thread.vi"/>
 				<Item Name="get value of int32 pointer.vi" Type="VI" URL="../VIs/Private/Pointer Operations/get value of int32 pointer.vi"/>
