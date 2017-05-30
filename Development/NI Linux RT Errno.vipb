@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-02-03 17:50:33" Modified_Date="2017-05-30 11:13:35" Creator="Ryan Poulos" Comments="" ID="0315244cb3f243b3b1f08bdf0c3baed6">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-02-03 17:50:33" Modified_Date="2017-05-30 14:27:11" Creator="Ryan Poulos" Comments="" ID="b0a01a81a8f0a0064b71b7e720bcac8d">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_NI_Linux_RT_Errno</Package_File_Name>
-    <Library_Version>1.1.0.8</Library_Version>
+    <Library_Version>1.1.1.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\Builds</Library_Output_Folder>
@@ -32,7 +32,10 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://forums.ni.com/t5/Reference-Design-Content/NI-Linux-RT-Libraries/ta-p/3622838</URL>
-      <Release_Notes>1.1.0:
+      <Release_Notes>1.1.1:
+Corrected CLFN issue where LabVIEW would try and find libc functions and fail.
+
+1.1.0:
 Updated VIs to use errno enum rather than standard numeric, for consistency.</Release_Notes>
     </Description>
     <Destinations>
@@ -304,7 +307,7 @@ Updated VIs to use errno enum rather than standard numeric, for consistency.</Re
         <Path>..\Source\VIs\Public\Get LV Error Info from Errno.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AE17090327900B9A842E1674AA7B3636</GUID>
+      <GUID>166D0951B06998BB82592A7BB785B6C8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -367,7 +370,7 @@ Updated VIs to use errno enum rather than standard numeric, for consistency.</Re
         <Path>..\Source\VIs\Public\SubVIs\get errno description.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8B957AE2F4B1EDDE71D423295917D030</GUID>
+      <GUID>8FAE6304FC33BD25E96A204F05BE66DE</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -402,7 +405,7 @@ Updated VIs to use errno enum rather than standard numeric, for consistency.</Re
         <Path>..\Enums</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9655AFE30EC56C22F6A811B547F7B6EC</GUID>
+      <GUID>ACC7E983EE636F81727A000DA950FDAE</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -437,7 +440,7 @@ Updated VIs to use errno enum rather than standard numeric, for consistency.</Re
         <Path>..\Source\Controls\Public\errno.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5F34A197524BAAD7D929D099A904A9FF</GUID>
+      <GUID>789BD6D0C4450F165281DD4B5B1957BE</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
