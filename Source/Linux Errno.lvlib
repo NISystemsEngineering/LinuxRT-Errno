@@ -36,7 +36,9 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 			<Item Name="SubVIs" Type="Folder">
 				<Item Name="build errno description.vi" Type="VI" URL="../VIs/Public/SubVIs/build errno description.vi"/>
+				<Item Name="errno enum to number.vi" Type="VI" URL="../VIs/Public/SubVIs/errno enum to number.vi"/>
 				<Item Name="errno enum to string.vi" Type="VI" URL="../VIs/Public/SubVIs/errno enum to string.vi"/>
+				<Item Name="errno number to enum.vi" Type="VI" URL="../VIs/Public/SubVIs/errno number to enum.vi"/>
 				<Item Name="get errno description.vi" Type="VI" URL="../VIs/Public/SubVIs/get errno description.vi"/>
 				<Item Name="get errno from error code.vi" Type="VI" URL="../VIs/Public/SubVIs/get errno from error code.vi"/>
 				<Item Name="get error code for errno.vi" Type="VI" URL="../VIs/Public/SubVIs/get error code for errno.vi"/>
